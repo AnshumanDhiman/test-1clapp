@@ -1,0 +1,26 @@
+
+.image-phone-login {
+  width: 15rem;
+}
+
+
+
+.Login{
+  align-items: center;
+}
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+      z-index: 5;
+    }
+  
+    .Login>form {
+      width: 300px;
+      padding: 1rem;
+    background-color: #ecececcc;
+    }
+
+    .form-group>label{
+      font-weight: bold;
+    }
+  }

@@ -1,0 +1,44 @@
+
+.carousel-demo .product-item .product-item-content {
+    /* border: 1px solid var(--surface-d); */
+    border-radius: 3px;
+    margin: .3rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.product-item-tiffin  .product-image-tiffin{
+    width: 90%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* .carousel-demo {
+    width: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+} */
+
+.carousel-img{
+    height:15rem;
+    width:22rem;
+    margin: 25px 0 0 15px;
+    
+}
+
+.carousel-heading{
+    text-align: center;
+    margin:1rem 0;
+    color: rgb(109, 107, 107);
+}
+
+.carousel-align{
+    margin:3% 3%;
+    border: none;
+    /* box-shadow: 2px 2px 7px grey; */
+}
+
+.offers-bg{
+    background-color: rgb(42, 41, 51);
+    width:100%;
+    height:465px;
+
+}

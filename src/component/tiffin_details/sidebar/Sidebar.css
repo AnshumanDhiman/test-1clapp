@@ -1,0 +1,37 @@
+.side_bar{
+    /* background-color:rgb(173, 171, 171); */
+    margin:0;
+    padding:20px 0 0 0;
+    border-right: solid 1px rgb(54, 54, 54);
+    height:40rem;
+
+}
+
+.lower_sec{
+    background-color: rgba(229, 226, 226, 0.507);
+    height:40rem;
+    margin:0 !important;
+}
+
+.category_h3{
+font-weight:500;
+text-align: center;
+}
+
+.category_p{
+    font-weight: 500;   
+    color:rgb(77, 75, 75);
+    font-size: 1.3rem;
+    margin: 10px auto auto 20px;
+}
+.category_p:hover{
+transform:scale(1.1);
+transition: ease 0.5s;
+}
+.category_p:not(hover){
+    transition: ease 0.5s;
+}
+
+.category_p:hover{
+color:rgb(7, 167, 55);
+cursor:pointer;}

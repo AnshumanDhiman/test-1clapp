@@ -1,0 +1,46 @@
+.product-item {
+    height: 100%;
+}
+
+.product-image {
+    object-fit: cover;
+    height: 20vh;
+    padding: 0 30.5%;
+    width: 100%;
+}
+
+.p-carousel-container {
+    padding: 1rem;
+}
+
+.p-carousel-indicator {
+    display: none;
+}
+
+.product-item-content {
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 100%;
+}
+.p-mb-3{
+    height: 100%;
+}
+
+
+
+.product-text {
+    text-align: center;
+}
+
+.carousel-demo {
+    padding: 0 5rem;
+    position: relative;
+    padding-bottom: 1rem;
+    bottom: 4rem;
+    z-index: 2;
+}
+.carousel-parent{
+    background: #fff;
+    z-index: 5;
+}
+

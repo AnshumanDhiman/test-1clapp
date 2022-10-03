@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400&family=Lato&display=swap');
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+.howimg{
+    height:230px;
+    width:230px;
+    margin-bottom:0.5rem;
+}
+
+h4{
+    font-weight: 500 !important;
+}
+
+.howbox{
+    font-family: 'Aleo', serif;
+margin:4rem 0;
+display: grid;
+justify-content: center;
+}
+
+.heading{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.content{
+    font-size:1rem;
+    font-weight: 400;
+    text-align: justify;
+    color:rgb(102, 97, 97);
+}

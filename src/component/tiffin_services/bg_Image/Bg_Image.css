@@ -1,0 +1,39 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400&family=Lato&display=swap');
+
+
+.heroSection{
+    background-image: url('../../../resources/tiffindabba.png');
+    
+    height: 350px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.heroSection_Overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    height: 350px;
+    background-color: #12021a;
+    
+    opacity: 0.6;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.heroHeading{
+    color: white;
+    font-size: 4rem;
+    z-index: 3;
+    margin-top:3em;
+    font-family: 'Lato', sans-serif;
+
+} */

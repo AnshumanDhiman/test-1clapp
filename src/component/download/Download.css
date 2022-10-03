@@ -1,0 +1,43 @@
+
+
+.outer-download {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    margin : 5% 0;
+}
+
+.padd-download {
+    padding: 3% 10%;
+}
+
+.image-phone {
+   width: 15rem;
+}
+
+
+
+.btn:hover {
+    transform:scale(1.1);
+    transition: 0.75s ;
+}
+.btn:not(:hover) {
+    transition: 0.5s ;
+}
+
+
+.button_img {
+    margin-left: -20px;
+    width: 40px;
+}
+
+.button_text {
+    font-size: 1.2em;
+
+}
+
+
+@media (max-width: 764px) {
+    .responsive {
+    text-align: center;
+}
+}

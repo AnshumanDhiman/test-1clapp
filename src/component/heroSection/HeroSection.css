@@ -1,0 +1,89 @@
+
+
+
+.heroSection{
+    background-image: url('../../resources/bg2.jpg');
+    /* background-image: url(''); */
+    height: 552px;
+    height: 552px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.heroSection_Overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    height: 552px;
+    background-color: #12021a;
+    /* background-color: #37303a; */
+    opacity: 0.6;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.heroHeading{
+    color: white;
+    font-size: 5rem;
+    z-index: 3;
+font-family: 'Montserrat',sans-serif;
+
+}
+
+.tagline{
+    color: rgba(245, 239, 239, 0.87);
+    font-size: 2rem;
+    z-index: 3;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.clapp-text{
+    /* color:#00B4CC; */
+    color: rgb(37, 158, 228);
+}
+
+.searchBoxSection{
+    z-index: 3;
+    display: grid;
+    grid-template-columns: 23% 77%;
+    padding: 1rem 12rem;
+    column-gap: 1rem;
+    width: 100%;
+}
+
+.searchInput>input{
+    height: 3rem !important;
+    padding: 1rem 3rem;
+}
+
+.searchInput{
+    position: relative;
+    width: 100%;
+}
+
+.searchInput>i{
+    position: absolute;
+    top: 50%;
+    margin-top: -.5rem;
+    left: 1rem;
+}
+
+/* .clapp{
+    height:50px;
+    width:45px;
+    background-color: white;
+    border-radius: 40%;
+} */
+
+@media screen and (min-width : 1298px) {
+    .searchBoxSection{
+        padding: 1rem 25rem;
+    }
+}

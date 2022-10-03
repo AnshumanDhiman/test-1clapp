@@ -1,0 +1,18 @@
+.options_nav{
+    margin-bottom: 0 !important;
+}
+.breadcrumb, .options_nav{
+    background-color: rgba(216, 214, 214, 0.747) !important;
+    height:3.5rem;
+    font-size:1.3rem;
+}
+
+.options_vr{
+    margin:auto 1rem;
+}
+
+.options_hov:hover{
+    color: rgb(3, 101, 192);
+    cursor:pointer;
+
+}

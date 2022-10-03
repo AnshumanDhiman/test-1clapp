@@ -1,0 +1,48 @@
+/*  */
+.img-size{
+    height:18rem;
+    border-radius: 15px 15px 0 0;
+}
+
+.vendor_cards{
+    padding: 5px;
+    margin-right: 2rem;
+    width: 23rem;
+    border-radius: 15px ;
+    /* border:none; */
+    border:1px rgb(179, 177, 177) solid;
+}
+
+.vendor_cards:hover{
+    transform:scale(1.05);
+    transition: ease-in-out 0.4s;
+    box-shadow: 3px 3px 5px rgb(122, 122, 122);
+
+}
+.vendor_cards:not(hover){
+    transition: ease-in-out 0.4s;
+}
+
+.center{
+    margin: 0 5rem 4rem;
+    padding:0;
+}
+
+.rate-btn{
+    height:1.6rem;
+    width:4rem;
+    background-color: rgb(10, 112, 44);
+    color:whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.card-link{
+    color:rgb(56, 56, 56);
+    text-decoration: none;
+}
+.card-link:hover{
+    color:rgb(56, 56, 56);
+    
+}

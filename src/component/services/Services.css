@@ -1,0 +1,44 @@
+/* .sectionClass{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    grid-template-rows: 17rem 17rem;
+    row-gap: 1rem;
+    width: 100%;
+}
+
+.serviceSection{
+    display: flex;
+    padding: 0rem 3rem 2rem 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 8;
+}
+
+.serviceSection>h2{
+    color: #d9d9d9;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    z-index: 4;
+}
+.overlay{
+    background-color: #0a001c;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    position: absolute;
+    height: 104%;
+    z-index: 0;
+}
+.background-Image{
+    background-image: url("https://dessign.net/oneclick-template/wp-content/uploads/2018/04/pedro-henrique-santos-375149-unsplash.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+} */

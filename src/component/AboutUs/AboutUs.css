@@ -1,0 +1,36 @@
+.video {
+    text-align: center;
+}
+
+.headings-aboutus {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.para {
+    font-size: 1.1rem;
+}
+
+.padd-aboutus {
+    padding: 2% 0;
+}
+
+.image-edit-aboutus {
+    width: 20rem;
+}
+
+@media (max-width: 764px) {
+    .heading-introduction-aboutus {
+        display: none;
+    }
+    .para {
+        text-align: center;
+    }
+    .video {
+        display: none;
+    }
+    .img-center-aboutus {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+}

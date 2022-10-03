@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400&family=Lato&display=swap'); */
+
+nav{
+    padding-bottom: '0px';
+    background-color: rgba(224, 219, 219, 0.253);
+    font-family: 'Lato', sans-serif;
+}
+
+.list{
+    color:slategray;
+    font-weight: 500;
+    font-size: large;
+   
+}
+
+.list-color{
+    color:rgb(109, 108, 108) !important;
+
+}
+.list-color:hover{
+color:rgb(47, 122, 235) !important;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+ .LM-input{
+    border-radius: 7px 0 0 7px;
+    border-right: none;
+
+}
+
+ .LM-btn{
+    border-radius: 0 7px 7px 0;
+    width:10.5rem;
+    height:2.2rem;
+    padding:0;
+    margin-bottom: 20px;
+    background-color: rgb(7, 168, 69) !important;
+    margin-left: 0;
+
+}
+
+.LM-btn:hover{
+background-color: rgb(8, 131, 63) !important;
+transform: none;
+transition : ease 0.3s
+}
+
+.locate-me{
+    border:1px solid grey;
+    border-right:none;
+    border-radius:5px 0 0 5px;
+    outline: none;
+    height:2.5rem;
+    width:15rem;
+    font-size: 1.1rem;
+}
+.locate-me:focus{
+    box-shadow:1px 1px 3px;
+}
+
+.locate-btn{
+    border:1px solid grey;
+    border-left:none;
+    border-radius:0 5px 5px 0;
+    outline: none;
+    background-color:rgb(5, 175, 62);
+    color:white;
+}
+
+.locate-btn:hover{
+background-color: green;
+transition:ease 0.4s;
+}
+.locate-btn:not(hover){
+    /* background-color: green; */
+    transition:ease 0.4s;
+    }

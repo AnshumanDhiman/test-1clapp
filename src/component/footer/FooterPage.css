@@ -1,0 +1,125 @@
+
+.title {
+    font-weight: bold;
+    text-align: left;
+    color : white;
+    margin-left: 10%;
+}
+
+.color_footer {
+    background-color : rgba(0, 0, 0, 0.87);
+    z-index: 10000;
+}
+
+.icon1 {
+    color:	#bc2a8d;
+    margin: 0% 5% 10%;
+}
+
+.icon1:hover {
+    transform: scale(1.4);
+    transition: 0.75s;
+}
+
+.icon1:not(:hover) {
+    transition: 0.5s ;
+}
+
+.icon2 {
+    color:	#4267B2;
+    margin: 0% 5% 10%;
+}
+
+.icon2:hover {
+    transform: scale(1.4);
+    transition: 0.75s;
+}
+
+.icon2:not(:hover) {
+    transition: 0.5s ;
+}
+
+.icon3 {
+    color : #1DA1F2;
+    margin: 0% 5% 10%;
+}
+
+.icon3:hover {
+    transform: scale(1.4);
+    transition: 0.75s;
+}
+
+.icon3:not(:hover) {
+    transition: 0.5s ;
+}
+
+.icon4 {
+    color:	#0077b5;
+    margin: 0% 5% 10%;
+}
+
+.icon4:hover {
+    transform: scale(1.4);
+    transition: 0.75s;
+}
+.icon4:not(:hover) {
+    transition: 0.5s ;
+}
+
+
+.list-unstyled {
+    padding: 1%;
+    text-align: left;
+}
+
+
+
+
+.footer_element:hover {
+    text-decoration: underline;
+}
+
+.footer_logo_div {
+    text-align: center;
+}
+
+.div-foot-edit {
+
+    margin-top: 15%;
+}
+
+.footer_edit {
+    padding: 0 3%;
+  
+}
+
+.image_footer {
+    width: 11rem;
+    padding: 0 5%;
+}
+
+.content1 {
+    margin-top: 1%;
+    color:white;
+}
+
+.endFooter {
+    text-align: center;
+}
+
+@media (max-width: 764px) {
+    .title {
+        text-align:center;
+    }
+    
+    .list-unstyled {
+    text-align: center;
+}
+}
+
+
+/* tiffin changes */
+a{
+    text-decoration: none;
+    color: white;
+}

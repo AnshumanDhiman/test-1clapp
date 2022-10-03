@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400&family=Lato&display=swap'); */
+
+nav{
+    padding-bottom: '0px';
+    background-color: rgba(224, 219, 219, 0.253);
+    font-family: 'Lato', sans-serif;
+}
+
+.list{
+    color:slategray;
+    font-weight: 500;
+    font-size: large;
+   
+}
+
+.list-color{
+    color:rgb(109, 108, 108) !important;
+
+}
+.list-color:hover{
+color:rgb(47, 122, 235) !important;
+}
