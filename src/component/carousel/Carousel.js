@@ -9,9 +9,9 @@ import React, { useState } from 'react';
 import { Carousel } from 'primereact/carousel';
 import './Carousel.css';
 
-const namedata1 = "Customer 1";
-const namedata2 = "Customer 2";
-const namedata3 = "Customer 3";
+const namedata1 = "Anshuman Dhiman";
+const namedata2 = "Harsh Neolia";
+const namedata3 = "Prashant Sharma";
 const data1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 const data2 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 const data3 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
